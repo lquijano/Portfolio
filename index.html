@@ -1,66 +1,263 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <title>About Me</title>
+<!DOCTYPE HTML>
 
-		<link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+<html>
+	<head>
+		<title>LQ Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABNWz9sqGMp9v_r5aaMiR70N1iUejNN8U&callback=initMap"></script>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-  </head>
-  <body>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
 
-		<div class="jumbotron jumbotron-fluid text-center">
-				<h1 id="header">About Leslie</h1>
-				<nav>
-	          <a href="index.html">About</a>
-	          <a href="portfolio.html">Porfolio</a>
-	          <a href="contact.html">Contact</a>
-	      </nav>
-		</div>
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>About</strong> Leslie</a>
+									<ul class="icons">
+										<li><a href="#" class="icon fa-twitter"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 
+									</ul>
+								</header>
 
-<div id="main-container">
-      <section class="mainContent">
-            <h1>About Me</h1>
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Welcome, to LQ's website! </h1>
+											<p>How exciting! I get to talk about myself in third person!</p>
+										</header>
+										<p>Leslie is an ENTJ, adventure seeking, web developer - in that order.</p>
 
-            <img class="bioPhoto" width="200" height="200" src="assets/images/sharkLeslie.jpg" alt="Picture of Leslie and Priya Bee Keeping">
+				            <p>Originally from Bell, Ca in Los Angeles. I moved up to the Bay Area to begin my academic journey at UC Berkeley.
+				              I completed my Bachelor of Arts in Political Economy and moved to San Franciso to work in Finance. After three wonderful busy seasons with PricewatehouseCoopers LLC. I decided to re-enroll
+				              at Cal, to attain a certificate in Full Stack Web Developement. Here we are now. </p>
 
-            <p>This is Leslie Quijano's website and this is a bit of a about her life! (How exciting! I get to talk about myself in third person!)</p>
+				          <p>I enjoy making cards, traveling, yoga, hiking, and cooking.</p>
 
-            <p>Leslie is an ENTJ, adventure seeking, web developer - in that order.</p>
+										<ul class="actions">
+											<li><a href="#" class="button big">Learn More</a></li>
+										</ul>
+									</div>
+									<span class="image object">
+										<img class="bioPhoto" width="200" height="200" src="./images/sharkLeslie.jpg" alt="LQ in a shark costume, Halloween2016">
+									</span>
+								</section>
 
-            <p>Originally from Bell, Ca in Los Angeles. I moved up to the Bay Area to begin my academic journey at UC Berkeley.
-              I completed my Bachelor of Arts in Political Economy and moved to San Franciso to work in Finance. After three wonderful busy seasons with PricewatehouseCoopers LLC. I decided to re-enroll
-              at Cal, to attain a certificate in Full Stack Web Developement. Here we are now. </p>
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Portfolio</h2>
+									</header>
+									<div class="features">
+										<article>
+											<span class="icon fa-diamond"></span>
+											<div class="content">
+												<h3>Friend Finder</h3>
+												<p>
+													A compatibility-based "FriendFinder" application -- simulating a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+												</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon fa-paper-plane"></span>
+											<div class="content">
+												<h3>gifTastic</h3>
+												<p>
+												Using the GIPHY API, JavaScript, and jQuery a dynamic web page was created that populates the HTML with gifs of your choice.
+											</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon fa-rocket"></span>
+											<div class="content">
+												<h3>Quam lorem ipsum</h3>
+												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon fa-signal"></span>
+											<div class="content">
+												<h3>Sed magna finibus</h3>
+												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											</div>
+										</article>
+									</div>
+								</section>
 
-          <p>I enjoy making cards, traveling, yoga, hiking, and cooking.</p>
-      </section>
-    </div>
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ipsum sed dolor</h2>
+									</header>
+									<div class="posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<h3>Interdum aenean</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<h3>Nulla amet dolore</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<h3>Tempus ullamcorper</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+											<h3>Sed etiam facilis</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<h3>Feugiat lorem aenean</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+											<h3>Amet varius aliquam</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+									</div>
+								</section>
 
-      <section class="sidebar">
-        <div id="connect">
-          <h2>Connect with Me</h2>
-          <img height="100" width="100" class="social" src="assets/images/if_Linked_in_100330.png" alt="Linkedin">
-          <img height="100" width="100" class="social" src="assets/images/if_mark-github_298822.png" alt="GitHub">
-          <img height="100" width="100" class="social" src="assets/images/if_stackoverflow_1220346 (1).png" alt="Stack Overflow">
-        </div>
-      </section>
-</div>
+						</div>
+					</div>
 
-<footer>
-    <div class="container">
-      &copy; Copyright 2018 Leslie Quijano
-    </div>
-</footer>
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
 
-  </body>
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="generic.html">Portfolio</a></li>
+										<li><a href="elements.html">Contact</a></li>
+										<li>
+											<span class="opener">Blogs</span>
+											<ul>
+												<li><a href="#">Travel Blog</a></li>
+												<li><a href="#">Health Blog</a></li>
+												<li><a href="#">Women and Code</a></li>
+												<li><a href="#">Women and Code</a></li>
+											</ul>
+										</li>
+										<!-- <li><a href="#">Etiam Dolore</a></li>
+										<li><a href="#">Adipiscing</a></li>
+										<li>
+											<span class="opener">Another Submenu</span>
+											<ul>
+												<li><a href="#">Lorem Dolor</a></li>
+												<li><a href="#">Ipsum Adipiscing</a></li>
+												<li><a href="#">Tempus Magna</a></li>
+												<li><a href="#">Feugiat Veroeros</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Maximus Erat</a></li>
+										<li><a href="#">Sapien Mauris</a></li>
+										<li><a href="#">Amet Lacinia</a></li> -->
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Places I've Hiked</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/rainbowMountain.jpg" alt="Peru" /></a>
+											<p>Rainbow Mountain</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/zion.jpg" alt="Zion" /></a>
+											<p>Rainbow Mountain</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/halfDome.jpg" alt="HalfDome" /></a>
+											<p>HalfDome</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/maccuPiccu.jpg" alt="MaccuPiccu" /></a>
+											<p>MaccuPiccu</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Connect with me!</h2>
+									</header>
+									<p>If you have any questions or jobs for me, please don't hesitate to reach out!</p>
+									<ul class="contact">
+										<li class="fa-envelope-o"><a href="#">Gmail</a></li>
+										<li class="fa-linkedin">LinkedIn</li>
+										<li class="fa-github">GitHub<br />
+										<li class="fa-camera-retro">Instagram</li>
+										<li class="fa-spotify">Music</li>
+										</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Copyright 2018 Leslie Quijano</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
