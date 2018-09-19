@@ -82,6 +82,7 @@ nav a {
   border-left: 1px solid #efefef;
   padding-left: 15px;
   line-height: 18px;
+
 }
 
 nav a:first-child{
@@ -173,4 +174,8 @@ input[type=submit] {
   font-size: 18px;
    padding: 10px 30px;
    cursor: pointer;
+}
+
+nav {
+	position: absolute;
 }
